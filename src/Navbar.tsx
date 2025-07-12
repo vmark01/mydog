@@ -20,7 +20,7 @@ export default function Navbar() {
               className="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none"
             >
               <img className='me-2'
-                            src="/dog_icon.png"
+                            src={`${import.meta.env.BASE_URL}/dog_icon.png`}
                             alt="Logo"
                             style={{ width: '1.8rem', height: '1.8rem' }}
                         />

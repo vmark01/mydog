@@ -11,7 +11,7 @@ export default function Footer() {
                         aria-label="Logo"
                     >
                         <img
-                            src="/dog_icon.png"
+                            src={`${import.meta.env.BASE_URL}/dog_icon.png`}
                             alt="Logo"
                             style={{ width: '1.5rem', height: '1.5rem' }}
                         />

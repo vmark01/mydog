@@ -14,7 +14,7 @@ export default function HomePage() {
       {/* Kép */}
       <section className="text-center mb-5">
         <img
-          src="/zeno_black_white.png"
+          src={`${import.meta.env.BASE_URL}/zeno_black_white.png`}
           alt="Zeno"
           className="img-fluid rounded shadow"
           style={{ maxWidth: "400px" }}
@@ -27,12 +27,10 @@ export default function HomePage() {
         <div className="card mx-auto" style={{ maxWidth: "500px" }}>
           <div className="card-body">
             <ul className="list-group list-group-flush">
-              <li className="list-group-item"><strong>Név:</strong> Bodri</li>
-              <li className="list-group-item"><strong>Fajta:</strong> Magyar vizsla</li>
+              <li className="list-group-item"><strong>Név:</strong> Zénó</li>
+              <li className="list-group-item"><strong>Fajta:</strong> Spániel keverék</li>
               <li className="list-group-item"><strong>Kor:</strong> 3 éves</li>
-              <li className="list-group-item"><strong>Szín:</strong> Világosbarna</li>
-              <li className="list-group-item"><strong>Kedvenc étel:</strong> Csirkés jutalomfalat</li>
-              <li className="list-group-item"><strong>Kedvenc hely:</strong> Újpesti Farkaserdő</li>
+              <li className="list-group-item"><strong>Szín:</strong> Fekete-barna</li>
             </ul>
           </div>
         </div>
