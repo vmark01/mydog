@@ -14,7 +14,7 @@ export default function HomePage() {
         <h1>Szia!</h1>
         <p className="lead">
           A nevem <strong>Zénó</strong>, egy barátságos és játékos spániel keverék Budapestről.
-          Imádok kirándulni, játszani, aludni és az összes közül a legjobban aludni.
+          A napjaim nagy részét játékokkal, alvással és finom falatok keresésével töltöm. 
         </p>
 
         {/* Kattintható szöveg */}
@@ -23,7 +23,7 @@ export default function HomePage() {
             onClick={scrollToRolam} 
             style={{ cursor: "pointer", color: "#0d6efd", textDecoration: "underline" }}
           >
-            Tudj meg többet rólam →
+            Tudj meg többet rólam...
           </span>
         </p>
       </section>
@@ -56,21 +56,21 @@ export default function HomePage() {
                   <div className="col-5 fw-bold">Szín:</div>
                   <div className="col-7">Fekete-cser</div>
                 </div>
+                <div className="mb-2 row">
+                  <div className="col-5 fw-bold">Születésnap:</div>
+                  <div className="col-7">2022.04.05</div>
+                </div>
               </div>
 
               {/* Jobb hasáb */}
               <div className="col-md-6 mb-3">
-                <div className="mb-2 row">
-                  <div className="col-5 fw-bold">Kedvenc játék:</div>
-                  <div className="col-7">Bármi a gazdival</div>
-                </div>
                 <div className="mb-2 row">
                   <div className="col-5 fw-bold">Hobbi:</div>
                   <div className="col-7">Kirándulás</div>
                 </div>
                 <div className="mb-2 row">
                   <div className="col-5 fw-bold">Kedvenc étel:</div>
-                  <div className="col-7">Minden, ami ehető</div>
+                  <div className="col-7">Minden</div>
                 </div>
                 <div className="mb-2 row">
                   <div className="col-5 fw-bold">Lakhely:</div>

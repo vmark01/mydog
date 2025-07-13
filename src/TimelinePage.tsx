@@ -1,5 +1,7 @@
 import { Timeline, TimelineItem, TimelineSeparator, TimelineConnector, TimelineContent, TimelineDot, TimelineOppositeContent } from '@mui/lab'
 import { Typography } from '@mui/material'
+import useMediaQuery from '@mui/material/useMediaQuery'
+import { useTheme } from '@mui/material/styles'
 
 type Event = {
   title: string
@@ -16,7 +18,7 @@ const events: Event[] = [
   {
     title: 'Balatonszemes',
     date: '2023-07-03',
-    description: "Első balatoni élményeim",
+    description: "Első fűrdés a Balatonban",
   },
   {
     title: 'Sátrazás',
@@ -71,17 +73,25 @@ const events: Event[] = [
 ]
 
 export default function TimelinePage() {
+  const theme = useTheme()
+  const isSmallScreen = useMediaQuery(theme.breakpoints.down('sm'))
+
   const sortedEvents = [...events].sort(
     (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
   )
 
   return (
     <div className="container mt-4">
-      <h2 className="text-center mb-4">Zénó kalandjai</h2>
-      <Timeline position="alternate">
+      <h2 className="text-center mb-4">Zénó kalandjai:</h2>
+      <Timeline position={isSmallScreen ? 'right' : 'alternate'}>
         {sortedEvents.map((event, index) => (
           <TimelineItem key={index}>
-            <TimelineOppositeContent color="text.secondary">
+            <TimelineOppositeContent
+              color="text.secondary"
+              sx={{
+                display: isSmallScreen ? 'none' : 'block', // ne jelenjen meg mobilon
+              }}
+            >
               {new Date(event.date).toLocaleDateString()}
             </TimelineOppositeContent>
             <TimelineSeparator>
@@ -91,6 +101,11 @@ export default function TimelinePage() {
             <TimelineContent>
               <Typography variant="h6">{event.title}</Typography>
               <Typography variant="body2">{event.description}</Typography>
+              {isSmallScreen && (
+                <Typography variant="caption" color="text.secondary">
+                  {new Date(event.date).toLocaleDateString()}
+                </Typography>
+              )}
             </TimelineContent>
           </TimelineItem>
         ))}
