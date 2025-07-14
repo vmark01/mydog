@@ -279,6 +279,128 @@ const photos = [
     height: 1003,
     alt: "Kép 47"
   },
+
+
+  {
+    src: `${base}photos/ze39.jpg`,
+    width: 2048,
+    height: 1536,
+    alt: "Kép 48"
+  },
+  {
+    src: `${base}photos/ze40.jpg`,
+     width: 1500,
+    height: 2000,
+    alt: "Kép 47"
+  },
+  {
+    src: `${base}photos/ze41.jpg`,
+     width: 1284,
+    height: 856,
+    alt: "Kép 47"
+  },
+  {
+    src: `${base}photos/ze42.jpg`,
+    width: 1500,
+    height: 2000,
+    alt: "Kép 47"
+  },
+  {
+    src: `${base}photos/ze43.jpg`,
+     width: 1500,
+    height: 2000,
+    alt: "Kép 47"
+  },
+  {
+    src: `${base}photos/ze44.jpg`,
+     width: 1500,
+    height: 2000,
+    alt: "Kép 47"
+  },
+  {
+    src: `${base}photos/ze45.jpg`,
+     width: 1500,
+    height: 2000,
+    alt: "Kép 47"
+  },
+  {
+    src: `${base}photos/ze46.jpg`,
+     width: 1500,
+    height: 2000,
+    alt: "Kép 47"
+  },
+  {
+    src: `${base}photos/ze47.jpg`,
+     width: 1500,
+    height: 2000,
+    alt: "Kép 47"
+  },
+  {
+    src: `${base}photos/ze48.jpg`,
+     width: 1500,
+    height: 2000,
+    alt: "Kép 47"
+  },
+  {
+    src: `${base}photos/ze49.jpg`,
+     width: 1500,
+    height: 2000,
+    alt: "Kép 47"
+  },
+  {
+    src: `${base}photos/ze50.jpg`,
+     width: 1500,
+    height: 2000,
+    alt: "Kép 47"
+  },
+  {
+    src: `${base}photos/ze51.jpg`,
+     width: 1500,
+    height: 2000,
+    alt: "Kép 47"
+  },
+  {
+    src: `${base}photos/ze52.jpg`,
+     width: 1500,
+    height: 2000,
+    alt: "Kép 47"
+  },
+  {
+    src: `${base}photos/ze53.jpg`,
+     width: 1500,
+    height: 2000,
+    alt: "Kép 47"
+  },
+  {
+    src: `${base}photos/ze54.jpg`,
+    width: 1500,
+    height: 2000,
+    alt: "Kép 47"
+  },
+  {
+    src: `${base}photos/ze55.jpg`,
+     width: 1500,
+    height: 2000,
+    alt: "Kép 47"
+  },
+  {
+    src: `${base}photos/ze56.jpg`,
+     width: 1500,
+    height: 2000,
+    alt: "Kép 47"
+  },
+  {
+    src: `${base}photos/ze57.jpg`,
+     width: 1500,
+    height: 2000,
+    alt: "Kép 47"
+  },
+  {
+    src: `${base}photos/ze58.jpg`,
+     width: 1500,
+    height: 2000,
+    alt: "Kép 47"
+  },
 ];
 
 export default photos;

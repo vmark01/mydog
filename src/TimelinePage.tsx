@@ -32,7 +32,7 @@ const events: Event[] = [
   },
   {
     title: 'Aggtelek',
-    date: '2023-08-19',
+    date: '2023-12-16',
     description: 'Rengeteg kirándulás a hidegben',
   },
   {
