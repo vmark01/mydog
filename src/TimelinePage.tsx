@@ -13,27 +13,27 @@ const events: Event[] = [
   {
     title: 'Balatonszemes',
     date: '2023-07-03',
-    description: "Első fűrdés a Balatonban",
+    description: "Első fürdés a Balatonban",
   },
   {
-    title: 'Sátrazás',
+    title: 'Tahtitótfalu, sátrazás',
     date: '2023-07-22',
     description: 'Első éjszakám sátorban',
   },
   {
     title: 'Szarvas',
     date: '2023-08-13',
-    description: "Házörzés",
+    description: "Arborétum és wellness",
   },
   {
-    title: 'Szolnok',
+    title: 'RepTár, Szolnok',
     date: '2023-08-19',
     description: 'Beengedtek egy kiállításra',
   },
   {
     title: 'Aggtelek',
     date: '2023-08-19',
-    description: 'Rengetek kirándulás a hidegben',
+    description: 'Rengeteg kirándulás a hidegben',
   },
   {
     title: 'Balatonboglár',
@@ -56,14 +56,14 @@ const events: Event[] = [
     description: 'Városnézés',
   },
   {
-    title: 'Horvátország',
+    title: 'Rovinj, Horvátország',
     date: '2024-09-12',
     description: 'Első fürdés a tengerben',
   },
   {
     title: 'Kranjska Gora, Szlovénia',
     date: '2025-04-21',
-    description: 'Hegymászás és rengetek kirándulás',
+    description: 'Hegymászás és rengeteg kirándulás',
   },
 ]
 
