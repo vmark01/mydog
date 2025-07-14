@@ -163,121 +163,121 @@ const photos = [
     src: `${base}photos/ze19.jpg`,
     width: 1500,
     height: 2000,
-    alt: "Kép 26"
+    alt: "Kép 28"
   },
   {
     src: `${base}photos/ze20.jpg`,
     width: 1500,
     height: 2000,
-    alt: "Kép 26"
+    alt: "Kép 29"
   },
   {
     src: `${base}photos/ze21.jpg`,
     width: 1500,
     height: 2000,
-    alt: "Kép 26"
+    alt: "Kép 30"
   },
   {
     src: `${base}photos/ze22.jpg`,
     width: 1500,
     height: 2000,
-    alt: "Kép 26"
+    alt: "Kép 31"
   },
   {
     src: `${base}photos/ze23.jpg`,
     width: 1500,
     height: 2000,
-    alt: "Kép 26"
+    alt: "Kép 32"
   },
   {
     src: `${base}photos/ze24.jpg`,
     width: 2048,
     height: 1536,
-    alt: "Kép 26"
+    alt: "Kép 33"
   },
   {
     src: `${base}photos/ze25.jpg`,
     width: 1536,
     height: 1152,
-    alt: "Kép 26"
+    alt: "Kép 34"
   },
   {
     src: `${base}photos/ze26.jpg`,
     width: 1500,
     height: 2000,
-    alt: "Kép 26"
+    alt: "Kép 35"
   },
   {
     src: `${base}photos/ze27.jpg`,
     width: 1500,
     height: 2000,
-    alt: "Kép 26"
+    alt: "Kép 36"
   },
   {
     src: `${base}photos/ze28.jpg`,
     width: 1536,
     height: 1229,
-    alt: "Kép 26"
+    alt: "Kép 37"
   },
   {
     src: `${base}photos/ze29.jpg`,
     width: 1500,
     height: 2000,
-    alt: "Kép 26"
+    alt: "Kép 38"
   },
   {
     src: `${base}photos/ze30.jpg`,
     width: 1500,
     height: 2000,
-    alt: "Kép 26"
+    alt: "Kép 39"
   },
   {
     src: `${base}photos/ze31.jpg`,
     width: 1500,
     height: 2000,
-    alt: "Kép 26"
+    alt: "Kép 40"
   },
   {
     src: `${base}photos/ze32.jpg`,
     width: 1500,
     height: 2000,
-    alt: "Kép 26"
+    alt: "Kép 41"
   },
   {
     src: `${base}photos/ze33.jpg`,
     width: 1500,
     height: 2000,
-    alt: "Kép 26"
+    alt: "Kép 42"
   },
   {
     src: `${base}photos/ze34.jpg`,
     width: 1500,
     height: 2000,
-    alt: "Kép 26"
+    alt: "Kép 43"
   },
   {
     src: `${base}photos/ze35.jpg`,
     width: 1500,
     height: 2000,
-    alt: "Kép 26"
+    alt: "Kép 44"
   },
   {
     src: `${base}photos/ze36.jpg`,
     width: 1500,
     height: 2000,
-    alt: "Kép 26"
+    alt: "Kép 45"
   },
   {
     src: `${base}photos/ze37.jpg`,
-    width: 1500,
-    height: 2000,
-    alt: "Kép 26"
+    width: 1511,
+    height: 1723,
+    alt: "Kép 46"
   },
   {
     src: `${base}photos/ze38.jpg`,
-    width: 1500,
-    height: 2000,
-    alt: "Kép 26"
+    width: 1254,
+    height: 1003,
+    alt: "Kép 47"
   },
 ];
 

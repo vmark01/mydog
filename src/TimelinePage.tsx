@@ -2,12 +2,7 @@ import { Timeline, TimelineItem, TimelineSeparator, TimelineConnector, TimelineC
 import { Typography } from '@mui/material'
 import useMediaQuery from '@mui/material/useMediaQuery'
 import { useTheme } from '@mui/material/styles'
-
-type Event = {
-  title: string
-  date: string
-  description: string
-}
+import type { Event } from './Event'
 
 const events: Event[] = [
   {
@@ -89,7 +84,7 @@ export default function TimelinePage() {
             <TimelineOppositeContent
               color="text.secondary"
               sx={{
-                display: isSmallScreen ? 'none' : 'block', // ne jelenjen meg mobilon
+                display: isSmallScreen ? 'none' : 'block',
               }}
             >
               {new Date(event.date).toLocaleDateString()}

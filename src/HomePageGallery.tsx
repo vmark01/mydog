@@ -26,7 +26,7 @@ export default function ZenoGallery() {
     <section className="my-5">
       <ImageGallery
         items={images}
-        showPlayButton={false}
+        showPlayButton={true}
         showFullscreenButton={true}
         showThumbnails={false}
       />
